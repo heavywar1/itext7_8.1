@@ -74,8 +74,8 @@ public class TableRenderer extends AbstractRenderer {
     protected boolean isOriginalNonSplitRenderer = true;
     TableBorders bordersHandler;
     private float[] columnWidths = null;
-    private List<Float> heights = new ArrayList<>();
-    private float[] countedColumnWidth = null;
+    protected List<Float> heights = new ArrayList<>();
+    protected float[] countedColumnWidth = null;
     private float totalWidthForColumns;
     private float topBorderMaxWidth;
 
